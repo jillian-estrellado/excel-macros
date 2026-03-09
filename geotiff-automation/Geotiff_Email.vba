@@ -8,7 +8,7 @@ Sub Geotiff_Email()
     Set ws = ThisWorkbook.Sheets("Geotiff")
 
     ' Define template path
-    TemplatePath = "D:\ESJI\MACROS&TOOLS\EmailTemplates\A2LZCO-2883 Updated UTD  Diff Chart Image.oft"
+    TemplatePath = "D:\TEMPLATE.oft"
 
     ' Get values from Geotiff sheet
     With ThisWorkbook.Sheets("Geotiff")
