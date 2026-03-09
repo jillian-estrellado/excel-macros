@@ -12,16 +12,16 @@ Sub GeoTIFF_Folders()
     Set shellApp = CreateObject("Shell.Application")
 
     ' Build folder paths from values in Geotiff sheet
-    folderPaths(1) = "Z:\10 QINSy Data\09 GeoTIFF\UTD_Image\" & _
+    folderPaths(1) = "Z:\PATHLINK\UTD_Image\" & _
                      Trim(ws.Range("D1").Value) & "\" & Trim(ws.Range("E1").Value)
                      
-    folderPaths(2) = "S:\Favorites\A2LZCO\03e ABS\Support activities\Charts\_UTD Image\" & _
+    folderPaths(2) = "S:\PATHLINK\_UTD Image\" & _
                      Trim(ws.Range("D1").Value) & "\" & Trim(ws.Range("E1").Value) & "\"
                      
-    folderPaths(3) = "Z:\10 QINSy Data\09 GeoTIFF\UTD_Image\" & _
+    folderPaths(3) = "Z:\PATHLINK\UTD_Image\" & _
                      Trim(ws.Range("D1").Value) & "\" & Trim(ws.Range("E1").Value) & "\Mean\"
                      
-    folderPaths(4) = "Z:\10 QINSy Data\09 GeoTIFF\UTD_Image\" & _
+    folderPaths(4) = "Z:\PATHLINK\UTD_Image\" & _
                      Trim(ws.Range("D1").Value) & "\" & Trim(ws.Range("E1").Value) & "\Diff\"
 
     ' Write only folderPaths(2) to (4) starting at B4
@@ -47,8 +47,8 @@ Sub GeoTIFF_Folders()
     Next i
 
     ' Define source files
-    sourceFile1 = "Z:\99 TEMP\ESJI\GEOTIFF\Color Scale.png"
-    sourceFile2 = "Z:\99 TEMP\ESJI\GEOTIFF\Color Scale_DIFF.png"
+    sourceFile1 = "Z:\PATHLINK\Color Scale.png"
+    sourceFile2 = "Z:\PATHLINK\Color Scale_DIFF.png"
 
     ' Copy Color Scale.png to Mean folder
     If fso.FileExists(sourceFile1) Then
