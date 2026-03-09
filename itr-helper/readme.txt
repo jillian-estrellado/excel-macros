@@ -1,0 +1,1 @@
+One of my most used and edited macros. This involves setting a database of folder paths (GetRQfolders) then using a formatted sheet to get all data needed. Used to search and verify a list of created charts. 
