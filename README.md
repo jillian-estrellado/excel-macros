@@ -1,2 +1,2 @@
 # excel-macros
-A collection of macros I used for various tasks
+A collection of macros I used to automate repetitive tasks.
